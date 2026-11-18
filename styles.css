@@ -117,3 +117,77 @@ header nav a:hover {
     font-size: 21px;
     margin-top: 0;
 }
+
+/* COVID-19 Testing Programme Section */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 70px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption {
+    max-width: 65%;
+}
+
+.testing-desciption h2 {
+    margin-top: 0;
+}
+
+.testing .cta .btn {
+    background-color: #48BB78;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Recent Stories Section */
+.stories {
+    padding: 60px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 30px;
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.stories article img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.stories .article-body h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.stories .article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.stories .article-body a:hover {
+    text-decoration: underline;
+}
