@@ -52,3 +52,68 @@ header nav a {
 header nav a:hover {
     color: #5A67D8;
 }
+
+/* Hero Overview Section */
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 60px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.overview-hero-image img {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+.overview-hero-text h2 {
+    margin-top: 0;
+}
+
+/* Learn About Section */
+.learn-about {
+    padding: 50px 0;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 15px 15px 0;
+    display: block;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+    margin-top: 0;
+}
