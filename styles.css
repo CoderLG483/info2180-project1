@@ -191,3 +191,66 @@ header nav a:hover {
 .stories .article-body a:hover {
     text-decoration: underline;
 }
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.newsletter h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.newsletter p {
+    max-width: 500px;
+    margin: 0 auto 25px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter .btn:hover {
+    opacity: 0.9;
+}
+
+.newsletter .message {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+}
